@@ -1,0 +1,27 @@
+# Logs
+*.log
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Node / tooling caches
+node_modules/
+.cache/
+
+# Python caches (if any scripts are added later)
+__pycache__/
+*.pyc
+
+# IDE/editor
+.vscode/
+.idea/
+
+# Minikube and kube configs (do not commit personal kubeconfig)
+.kube/
+.minikube/
+
+# Screenshots outputs
+screenshots/
+
